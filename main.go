@@ -44,7 +44,8 @@ func main() {
 		if functionName == "done" {
 			break
 		}
-
+		//This is the feature which was added
+		//The user should be able to know what "ARITHEMATIC OPERATOR" he/she is working on and also to see the "PREVIOUSLY IMPUTED NUMBER"
 		fmt.Println(functionName, currentNumber, "by...")
 		fmt.Scanln(&number)
 
